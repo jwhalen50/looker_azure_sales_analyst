@@ -62,4 +62,9 @@ view: azure_sales_analyst_view1 {
      type: sum
      sql: ${sales} ;;
    }
+   measure: customer_count {
+     description: "Total Customers by Territory, Rep and Customer"
+     type: count_distinct
+     sql: ${customername} ;;
+   }
 }
