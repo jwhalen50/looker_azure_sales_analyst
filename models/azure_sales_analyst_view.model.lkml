@@ -4,3 +4,5 @@ connection: "okera_azure_sales_analyst"
 include: "/views/**/*.view"
 
 explore: azure_sales_analyst_view1 {}
+
+explore: whoami {}
